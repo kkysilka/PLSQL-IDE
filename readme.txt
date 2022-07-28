@@ -37,7 +37,7 @@ function = "CREATE" [ "OR" "REPLACE" ] "FUNCTION" identifier [ "(" identifier ( 
 
 
 PŘÍKLAD
-````
+
 DECLARE
    a NUMBER := 10.15;
    b NUMBER := 0.05;
@@ -56,4 +56,4 @@ BEGIN
       put_line(concat(concat(c, ' '), 'string'));
    END LOOP;
 END;
-````
+
