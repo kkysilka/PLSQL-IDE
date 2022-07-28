@@ -34,3 +34,26 @@ digit = /[0-9]{1}/ ;
 number = digit { digit } [ "." { digit } ] ;
 varchar2 = /[']{1}[^']*[']{1}/ ;
 function = "CREATE" [ "OR" "REPLACE" ] "FUNCTION" identifier [ "(" identifier ( "NUMBER" | "VARCHAR2" ) { "," identifier ( "NUMBER" | "VARCHAR2" ) } ")" ] "RETURN" ( "NUMBER" | "VARCHAR2" ) "IS" { declare } begin ";" ;
+
+
+PŘÍKLAD
+````
+DECLARE
+   a NUMBER := 10.15;
+   b NUMBER := 0.05;
+   c VARCHAR2(10) := 'print';
+   d NUMBER := 1;
+   e NUMBER := 2;
+
+BEGIN
+   IF NOT d > e THEN
+      put_line(d);
+   END IF;
+
+   WHILE a < 15.3 
+   LOOP
+      a := a + b;
+      put_line(concat(concat(c, ' '), 'string'));
+   END LOOP;
+END;
+````
