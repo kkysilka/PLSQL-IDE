@@ -1,7 +1,7 @@
 INTEGROVANÉ VÝVOJOVÉ PROSTŘEDÍ PRO PL/SQL
 Aplikace pro vývoj jednoduchých konzolových programů
 v ořezané verzi jazyka PL/SQL. Aplikace umožňuje vytvářet
-a načít uložené projekty, rozdělit kód na hlavní blok
+a načíst uložené projekty, rozdělit kód na hlavní blok
 a funkce, které mohou být uloženy odděleně do jednotlivých
 souborů. Uživatel má možnost přepínat mezi souboy projektu
 a odstraňovat či přejmenovat jednotlivé soubory pomocí
