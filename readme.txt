@@ -7,7 +7,7 @@ souborů. Uživatel má možnost přepínat mezi souboy projektu
 a odstraňovat či přejmenovat jednotlivé soubory pomocí
 vestavěného průzkumníka souborů. Při nastání chyby v programu
 je uživatel upozorněn na chybu a při syntaktické chybě i na 
-pozici tokenu, na které se chyba vyskatla.
+pozici tokenu, na které se chyba vyskytla.
 
 TECHNOLOGIE
 Aplikace je napsaná v jazyce C-Sharp .NET Core 3.1
